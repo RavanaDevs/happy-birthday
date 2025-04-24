@@ -140,19 +140,19 @@ i {
 }
 
 #f1{
-    background-image: url('/img/cover.png');
+    background-image: url('img/cover.png');
     border-radius: 10px;
 }
 #b1{
-    background-image: url('/img/1.png');
+    background-image: url('img/1.PNG');
     border-radius: 10px;
 }
 #f2{
-    background-image: url('/img/2.png');
+    background-image: url('IMG/2.png');
     border-radius: 10px;
 }
 #b2{
-    background-image: url('/img/3.png');
+    background-image: url('IMG/3.PNG');
     border-radius: 10px;
 }
 #f3{
