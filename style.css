@@ -34,6 +34,7 @@ h1{
     display: flex;
     justify-content: center;
     gap: 100px;
+    z-index: 100;
 }
 
 /* Book */
@@ -161,4 +162,10 @@ i {
 #b3{
     background-image: url('/img/back.png');
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 375px){
+    .book{
+        width: 90%;
+    }
 }
