@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
+    outline: none;
 }
 
 body {
@@ -10,32 +12,36 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-family: sans-serif;
-    background-color: powderblue;
+    font-family: 'Hangyaboly', sans-serif;
+                                                
+    background: #e6fbff;
+    background: linear-gradient(90deg, rgba(230, 251, 255, 1) 0%, rgba(255, 191, 231, 1) 100%);
+}
+
+h1{
+    margin-bottom: 5px;
 }
 
 .button-container{
     position: absolute;
   
     /* Place above nav */
-    bottom: 50px;
+    bottom: 0px;
     left: 0px;
     
-    height: 50px;
+    height: 100px;
     width: 100%;
-      
-    background-color: blue;
-    color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
 /* Book */
 .book {
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 380px;
+    height: 550px;
     transition: transform 0.5s;
-    overflow-x: visible;
 }
 
 .paper {
@@ -45,7 +51,8 @@ body {
     top: 0;
     left: 0;
     perspective: 1500px;
-
+    border-radius: 8px;
+    
 }
 
 .front,
@@ -58,12 +65,15 @@ body {
     left: 0;
     transform-origin: left;
     transition: transform 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    outline: 2px solid pink;
 }
 
 .front {
     z-index: 1;
     backface-visibility: hidden;
-    border-left: 3px solid powderblue;
+    /* border-left: 3px solid powderblue; */
 }
 
 .back {
@@ -76,7 +86,11 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
+    font-size: x-small;
+    font-weight: 100;
+    color: #757575;
+
 }
 
 .back-content {
@@ -122,4 +136,29 @@ i {
 
 #p3 {
     z-index: 1;
+}
+
+#f1{
+    background-image: url('/img/cover.png');
+    border-radius: 10px;
+}
+#b1{
+    background-image: url('/img/1.png');
+    border-radius: 10px;
+}
+#f2{
+    background-image: url('/img/2.png');
+    border-radius: 10px;
+}
+#b2{
+    background-image: url('/img/3.png');
+    border-radius: 10px;
+}
+#f3{
+    background-image: url('/img/4.png');
+    border-radius: 10px;
+}
+#b3{
+    background-image: url('/img/back.png');
+    border-radius: 10px;
 }
