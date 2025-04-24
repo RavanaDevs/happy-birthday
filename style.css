@@ -10,7 +10,8 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+
+    padding-top: 64px;
 
     font-family: 'Hangyaboly', sans-serif;
                                                 
