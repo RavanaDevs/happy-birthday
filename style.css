@@ -144,23 +144,23 @@ i {
     border-radius: 10px;
 }
 #b1{
-    background-image: url('img/1.PNG');
+    background-image: url('img/1.png');
     border-radius: 10px;
 }
 #f2{
-    background-image: url('IMG/2.png');
+    background-image: url('img/2.png');
     border-radius: 10px;
 }
 #b2{
-    background-image: url('IMG/3.PNG');
+    background-image: url('img/3.png');
     border-radius: 10px;
 }
 #f3{
-    background-image: url('/img/4.png');
+    background-image: url('img/4.png');
     border-radius: 10px;
 }
 #b3{
-    background-image: url('/img/back.png');
+    background-image: url('img/back.png');
     border-radius: 10px;
 }
 
